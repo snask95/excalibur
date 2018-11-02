@@ -1,0 +1,34 @@
+/* Menuen */
+.navbar {
+	margin: 0 0 3%;
+	background-color: #d8c273;
+}
+
+.navbar-brand {
+	color: black;
+	margin-left: 19%;
+}
+
+ul {
+	margin-right: 25%;
+}
+
+.nav-link {
+	color: black;
+}
+
+/* Forest bg */
+#forest_bg {
+    background: #fff url('../../assets/img/forest_bg.png') no-repeat center;
+    width: 100%;
+    height: 2487px;
+    position: relative;
+}
+
+
+/* Footeren */
+footer{
+	padding: 0.5%;
+	text-align: center;
+	background-color: #d8c273;
+}

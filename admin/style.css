@@ -1,0 +1,55 @@
+@font-face {
+    font-family: fancy_font;
+    src: url(../Fancy_font/fancy_font.ttf),
+    	 url(../Fancy_font/LithosPro-Regular.otf);
+}
+
+@font-face {
+    font-family: LithosPro;
+    src: url(../Fancy_font/LithosPro-Regular.otf);
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #E1D7B3;
+}
+
+
+p {
+	font-size: 100px;
+	text-align: center;
+}
+
+.admin {
+	font-size: 120px;
+	font-family: LithosPro;
+	color: black;
+}
+
+#scroll {
+	background: url('liggende.png');
+	height: 750px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+    font-family: fancy_font;
+}
+
+a.link:hover {
+    color: #7C0707;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000,
+    			 -1px -1px 1px #000;
+
+}
+
+.link{
+	color: black;
+}
+
+.sidenavn {
+	font-family: LithosPro;
+	font-size: 20px;
+	text-align: center;
+}
